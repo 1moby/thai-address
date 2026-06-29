@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-29T15:21:31.742Z",
+  "source": {
+    "name": "DOPA STAT-BORA CCAATT + thailand-geography-json postal codes",
+    "url": "https://stat.bora.dopa.go.th/stat/statnew/statMenu/newStat/ccaa.php",
+    "files": [
+      "raw/ccaatt.xlsx",
+      "raw/thailand-geography-subdistricts.json"
+    ],
+    "note": "Rows with a disposal/cancel date, star marker, explicit cancellation text, or update footer are excluded. Postal codes are matched by subdistrictCode from https://github.com/thailand-geography-data/thailand-geography-json under the MIT license."
+  },
+  "counts": {
+    "provinces": 77,
+    "districts": 928,
+    "subdistricts": 7436,
+    "postalCodes": 7436
+  },
+  "stats": {
+    "rawRecords": 10025,
+    "activeRecords": 8441,
+    "excluded": 1585
+  },
+  "gzipBytes": 124577
+}

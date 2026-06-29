@@ -1,0 +1,36 @@
+# โครงสร้างข้อมูลทำเนียบท้องที่ - STAT-BORA
+
+[< กลับหน้าหลัก](https://www.google.com/search?q=https://stat.bora.dopa.go.th/stat/statnew/statMenu/)
+
+**โครงสร้างข้อมูลทำเนียบท้องที่**
+
+* **FILE NAME:** CCAATT
+* **FILE TYPE:** SEQUENTIAL (fixed length)
+
+**หมายเหตุ:**
+
+1. ข้อมูลขณะนี้เป็นข้อมูลในระดับจังหวัด อำเภอ ตำบล
+2. รายการรหัสข้อมูลใดที่มีเครื่องหมาย `*` หมายถึง รหัสนี้ถูกยกเลิก
+
+### ตารางโครงสร้างข้อมูล
+
+| FIELD NAME | CHARS | STORE | TYPE | KEY | DESCRIPTION |
+| --- | --- | --- | --- | --- | --- |
+| TBCCAA-KEY | - | - | - | PK | - |
+| -TBC-CC | 2 | 2 | N |  | CHANGWAT (จังหวัด) |
+| -TBC-AA | 2 | 2 | N |  | AMPUR (อำเภอ) |
+| -TBC-TT | 2 | 2 | N |  | TAMBOON (ตำบล) |
+| -TBC-MM | 2 | 2 | N |  | MOO BARN (หมู่บ้าน) |
+| TBC-DESC | 40 | 40 | AN |  | DESCRIPTION (คำอธิบาย) |
+
+---
+
+### ดาวน์โหลด (DOWNLOAD FILE)
+
+* [table_desc.xlsx](https://www.google.com/search?q=table_desc.xlsx)
+* [ccaatt.xlsx](https://www.google.com/search?q=ccaatt.xlsx)
+* [rcode.xlsx](https://www.google.com/search?q=rcode.xlsx)
+* [trok.xlsx](https://www.google.com/search?q=trok.xlsx)
+* [soi.xlsx](https://www.google.com/search?q=soi.xlsx)
+* [thanon.xlsx](https://www.google.com/search?q=thanon.xlsx)
+* [commu.xlsx](https://www.google.com/search?q=commu.xlsx)
